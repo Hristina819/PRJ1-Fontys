@@ -1,0 +1,104 @@
+.title {
+    background-color: green;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.blackline {
+    background-color: black;
+    width: 110%;
+    height: 2px;
+
+    padding: 0.5px;
+    margin-top: 10px;
+    margin-left: -13px;
+}
+
+.parent {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 300px);
+
+    padding: 5px;
+    margin: auto;
+    width: 75%;
+}
+
+.parent > div {
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 6px;
+    
+    padding-top: 15px;
+
+}
+
+.parent > div > img {
+
+    width: 250px;
+    max-width: 250px;
+    max-height:250px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 6px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.ButtonHub {
+    background-color: lightgreen;
+    padding: 15px;
+
+    text-align: center;
+}
+
+.ButtonHub > button{
+    font-size: 20px;
+    width: 150px;
+    height: 35px;
+    margin-right: 100px;
+
+    box-shadow: 2px 2px grey ;
+
+    border: none;
+    background-color: rgb(234, 231, 231);
+    border-radius: 3px;
+
+    transition-duration: 0.4s;
+}
+
+.ButtonHub > button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.body {
+    background-color: lightblue;
+}
+
+.FooterHub {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.FooterHub > button{
+    margin-right: 100px;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+
+    transition-duration: 0.4s;
+}
+
+.FooterHub > button:hover {
+    background-color: gray;
+    color: white;
+}
